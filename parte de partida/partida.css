@@ -1,0 +1,3622 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: #333;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    display: none;
+}
+.logo2{
+    display: none;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    color: #333;
+}
+
+section{
+    background-image: url(../style/Footbal_Men_Two_Legs_492484_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 30px 5px rgb(179, 177, 177);
+    width: 100%;
+    height: 600px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    height: 9vh;
+    justify-content: space-between;
+    
+}
+li{
+    padding: 20px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+transition: all 0.3s;
+}
+li:hover{
+box-shadow: 0px 0px 0px 1px white;
+transform: translate(-20px);
+}
+a{
+    color: white;
+    text-decoration: white;
+    transition: 0.3s;
+ }
+ a:hover, #img1:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover, button:hover{
+     
+     cursor: pointer;
+     
+ }
+ 
+ .logo{
+     font-size: 24px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: white;
+     font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+ 
+     
+ }
+ #nav-list {
+    letter-spacing: 3px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+
+}
+
+#nav-list .placarr a{
+    color: tomato;
+}
+
+
+header #img1{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 5px;
+}
+header #img2{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img3{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img4{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img5{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1px;
+}
+header{
+    width: 87%;
+    height: 30px;
+    background-color:transparent;
+    float: right;
+    
+}
+menu{
+     background-color: #333;
+    width: 86%;
+    height: 60px;
+    float: right;
+    margin: 0;
+    z-index: 2000;
+}
+#hora2{
+    color: white;
+    display: none;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    display: none;
+}
+
+footer{
+    width: 13.8%;
+    height: 70px;
+    background-color: #333;
+    float: left;
+    margin-top:-100px;
+    border-radius: 0px 0px 0px 0px;
+    
+}
+footer img{
+  width: 100%;
+  height: 170px;
+  border-radius: 0px 40px 0px 0px;
+  text-align: center;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+main img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+/*          parte de modal       */
+
+main{
+    width: 75%;
+    height: 660px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+    background-color: rgb(108, 147, 199);
+}
+
+
+
+
+
+#resultado h3 {
+font-size: 40px;
+background: radial-gradient(transparent,rgb(58, 57, 57) );
+box-shadow: 0px 0px 2px white;
+color: white;
+}
+#modalExemplo{
+width: 0;
+}
+.abrirModal2 p{
+font-size: 50px;
+z-index: 2000;
+
+}
+
+input{
+height: 50px;
+width: 100%;
+display: block;
+-webkit-appearance: none;
+background: radial-gradient(black,black);
+}
+
+
+.modal .fecharModal #exit{
+cursor: pointer;
+}
+
+#modalExemplo:checked + .modal
+{
+display: block;
+}
+.modal h4{
+background-color: tomato;
+height: 40px;
+padding: 10px;
+width: 100%;
+margin-top: -13px;
+display: none;
+
+}
+.modal #exit{
+margin: 0px;
+background-color: tomato;
+float: right;
+width: 13px;
+padding: 1px;
+color: black;
+}
+
+.modal{
+width: 75%;
+height: 660px;
+display: block;
+border-radius: 5px 5px 2px 2px;
+margin: 0%;
+overflow: scroll;
+position: absolute;
+margin-top: -50px;
+
+}
+#imgjogos{
+width: 50px;
+height: 50px;
+float: right;
+margin-top: -5px;
+}
+
+
+
+modal{
+margin-top: -32px;
+height: 30px;
+float: right;
+margin-right: -23px;background-color: brown;
+cursor: pointer;
+}
+.abrirModal h1{
+color: white;
+width:50%;
+padding: 30px;
+height: 100px;
+padding-top: 60PX;
+margin-left: -10px;
+cursor: pointer;
+display: block;
+font-size: 18px;
+font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+}
+.abrirModal h1:hover{
+transition: all 0.3s;
+color:tomato;
+}
+
+
+#modalExemplo2:checked + .modal2
+{
+display: block;
+}
+.modal2 h4{
+background-color: tomato;
+height: 40px;
+width: 100%;
+padding: 10px;
+margin-top: -13px;
+display: block;
+}
+.modal2 #exit{
+margin: 0px;
+background-color: tomato;
+float: right;
+width: 13px;
+padding: 1px;
+color: black;
+}
+
+.modal2{
+width: 100%;
+display: none;
+border-radius: 5px 5px 2px 2px;
+}
+modal{
+margin-top: -32px;
+height: 30px;
+float: right;
+margin-right: -23px;background-color: brown;
+cursor: pointer;
+}
+.abrirModal2 h4{
+color: rgb(0, 0, 0);
+width: 97.8%;
+height: 20px;
+cursor: pointer;
+margin-top: 1px;
+height: 40px;
+display: block;
+
+}
+#conteudomodal2{
+width: 100%;
+height: 30px;
+}
+.conteudomodal2 p{
+width: 100%;
+margin-top: 10px;
+text-align: center;
+height: 50px;
+color: white;
+}
+.conteudomodal2 #partidasAoVivo{
+width: 100%;
+margin-top: -20px;
+text-align: center;
+color: white;
+height: 300px;
+display: none;
+
+}
+.conteudomodal2 #partidasAoVivo2{
+width: 100%;
+margin-top: -20px;
+text-align: center;
+color: white;
+height: 2200px;
+display: none;
+}
+.conteudomodal2 #BusNovascarPartidas{
+display: none;
+height: 300px;
+width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subtitulo{
+margin: 7px;
+}
+-container{
+margin-top: 50px;
+width: 65%;
+height: 40px;
+background-color:white ;
+height: 60vh;
+top: 0px;
+left: 0px;
+z-index: 2000;
+display: none;
+}
+#bg{
+width: 65%;
+height: 100%;
+top: 0;
+left: 0;
+position: fixed;
+background-color: aqua;
+}
+
+
+
+
+.legend{
+    height: 500px;
+    width: 99.6%;
+    margin-top: 20px;
+    margin:0px 0px 60px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 25px 20px 20px rgb(0, 0, 0);
+}
+#rf img{
+  float: left;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 220px;
+}
+#rf {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    height: 300px;
+    margin-top: -15px;
+  }
+  #rf h3{
+    color: white;
+    margin-top: 120px;
+    font-size: 40px;
+  }
+  #f img{
+      width: 35px;
+      margin-left: 10px;
+      height: 35px;
+      margin-left: 10px;
+      text-align: center;
+      margin: auto;
+      margin-left: 90px;
+
+  }
+  #i img{
+    width: 40px;
+    margin-left: 10px;
+    height: 40px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 10px;
+
+}
+#tw img{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+
+}
+#site{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    display: flex;
+    width: 30%;
+}
+#contato{
+    height: 20px;
+    color: white;
+    text-align: center;
+    margin: auto;
+ }
+ #contato h4{
+    margin-top: 50px;
+}
+
+/* parte de api  */
+
+.conteudomodal2 #partidasAoVivo{
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+    height: 250px;
+    display: block;
+
+}
+.conteudomodal2 #partidasAoVivo2{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color:#333;
+    color: white;
+    height: 1450px;
+    display: block;
+}
+.conteudomodal2 #BusNovascarPartidas{
+    display: block;
+    height: 250px;
+    width: 100%;
+
+}
+.conteudomodal2 #partidasAoVivo3{
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    height: 1720px;
+    display: block;
+}
+
+
+
+
+#resultado{
+    display: block;
+    color: white;
+
+}
+.caixa{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.time{
+    margin-top: -40px;
+    margin-left: 50px;
+    float: left;
+}
+
+.ponto{
+    margin-top: -40px;
+    margin-left: 320px;
+    float: left;
+}
+.vitoria{
+    margin-top: -40px;
+    margin-left: 380px;
+    float: left;
+}
+.empate{
+    margin-top: -40px;
+    margin-left: 450px;
+    float: left;
+}
+.derrota{
+    margin-top: -40px;
+    margin-left: 510px;
+    float: left;
+}
+.golpro{
+    margin-top: -40px;
+    margin-left: 560px;
+    float: left;
+}
+.golcontra{
+    margin-top: -40px;
+    margin-left: 630px;
+    float: left;
+}
+
+.saldo{
+    margin-top: -40px;
+    margin-left: 700px;
+    float: left;
+}
+.jogo{
+    margin-top: -40px;
+    margin-left: 770px;
+    float: left;
+}
+.aproveitamento{
+    margin-top: -40px;
+    margin-left: 840px;
+    float: left;
+}
+.nulo{
+    color: rgb(108, 147, 199);
+}
+.partida0{
+    background-color: black;
+}
+.partida1{
+    background-color: blue;
+}
+.partida2{
+    background-color: black;
+}
+.partida3{
+    background-color: blue;
+}
+.partida4{
+    background-color: black;
+    margin-top: 20px;
+}
+.partida5{
+    background-color: blue;
+}
+.partida6{
+    background-color: black;
+}
+.partida7{
+    background-color: blue;
+}
+.partida8{
+    background-color: black;
+}
+.partida9{
+    background-color: blue;
+}
+
+@media screen and (max-width: 425px) {
+
+    section{
+        width:915px;
+        height: 550px;
+        margin: 0% 0% 0% 0% ;
+        background-size: cover;       
+        padding: 0;
+        margin-top: -50px;
+        margin-right: -20px;
+        float: left;
+      } 
+      menu{
+          width:92%;
+          height: 400px;
+          float: right;
+          margin-left: 25px;
+          margin-right: 20px;
+          margin-top: 20px;
+          border-radius: 10px;
+          background: radial-gradient(transparent,transparent);
+          display: block;
+         
+      }
+      #img1, #img2,#img3,#img4,#img5{
+        display: none;
+    }
+    
+  
+      .checkbtn{
+         width: 11%;
+         margin-left: 740px;
+        font-size: 110px;
+        color: white;
+        float: right;
+        margin-top: -20px;
+        display: block;
+        cursor: pointer;
+        z-index: 3999;
+    
+    }
+    #check{
+        font-size: 30px;
+        color: aliceblue;
+        float: right;
+  
+    }
+    .logo{
+        display: none;
+    }
+  
+      .logo2 img{
+          margin-top: -220px;
+          display: block;
+          flex-direction: column;
+          align-items: unset;
+          text-align: center;
+          color: white;
+          float: left;
+          width: 290px;
+          margin-left: -110px;
+      }
+      #check:checked ~ #nav-list{
+          display: block;
+      }
+      .check{
+        display: block;
+      }
+  
+      nav, #nav-list{
+        flex-direction: column;
+        align-items: unset;
+      }
+      #nav-list{
+          text-align: center;
+          display: block;
+          z-index: 2000;
+          background-color: #333;
+          display: none;
+          border-radius: 0px 0px 0px 0px;
+          float:right;
+          width: 920px;
+          font-size: 30px;
+          margin-left: -57px;
+          margin-top: -225px;
+          
+      }
+      li{
+          margin: 28px;
+      }
+      li:hover{
+          transform: translate(0px);
+          transition: all (0px);
+      }
+      .logo:hover{
+        transform: translate(0px);
+        padding: 0px;
+        box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+  
+      }
+  
+      nav{
+          padding-top: 20px;
+  
+      }
+
+      .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+    }
+    footer{
+        width: 13.8%;
+        height: 70px;
+        background-color: #333;
+        float: left;
+        margin-top:-100px;
+        border-radius: 0px 0px 0px 0px;
+        display: none;
+        
+    }
+    footer img{
+      width: 100%;
+      height: 170px;
+      border-radius: 0px 40px 0px 0px;
+      text-align: center;
+      margin-top: -40px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    main{
+        width: 865px;
+        height: 1350px;
+        margin: 8% ;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 820px;
+        margin: 20px;
+        display: block;
+        margin-top: 550px;
+        float: left;
+        height: 700px;
+        background-color: rgb(108, 147, 199);
+
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+    .legend{
+        width: 911px;
+    }
+    #rf h3{
+        width: 100%;
+        margin-top: 0px;
+        display: none;
+    }
+  
+    #site{
+        margin-left: 220px;
+    }
+  
+    #f{
+      transform: translateX(50px);
+  
+     }
+     #rf img{
+         width: 600px;
+         height: 300px;
+         transform: translateX(-150px);
+     }
+     #rf h3{
+         display: none;
+     }
+  #i{
+     transform: translateX(50px);
+  
+  }
+  #tw{
+     transform: translateX(50px);
+  
+  }
+
+
+  /* parte de api */
+
+  .partida0{
+    background-color: black;
+}
+.partida1{
+    background-color: blue;
+}
+.partida2{
+    background-color: black;
+}
+.partida3{
+    background-color: blue;
+}
+.partida4{
+    background-color: black;
+    margin-top: 20px;
+}
+.partida5{
+    background-color: blue;
+}
+.partida6{
+    background-color: black;
+}
+.partida7{
+    background-color: blue;
+}
+.partida8{
+    background-color: black;
+}
+.partida9{
+    background-color: blue;
+}
+
+.caixa{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.time{
+    margin-top: -40px;
+    margin-left: 50px;
+    float: left;
+}
+
+.ponto{
+    margin-top: -40px;
+    margin-left: 290px;
+    float: left;
+}
+.vitoria{
+    margin-top: -40px;
+    margin-left: 340px;
+    float: left;
+}
+.empate{
+    margin-top: -40px;
+    margin-left: 390px;
+    float: left;
+}
+.derrota{
+    margin-top: -40px;
+    margin-left: 440px;
+    float: left;
+}
+.golpro{
+    margin-top: -40px;
+    margin-left: 490px;
+    float: left;
+}
+.golcontra{
+    margin-top: -40px;
+    margin-left: 550px;
+    float: left;
+}
+
+.saldo{
+    margin-top: -40px;
+    margin-left: 610px;
+    float: left;
+}
+.jogo{
+    margin-top: -40px;
+    margin-left: 680px;
+    float: left;
+}
+.aproveitamento{
+    margin-top: -40px;
+    margin-left: 740px;
+    float: left;
+}
+
+}
+
+
+@media screen and (max-width:768px) and (min-width:426px) {
+    
+    section{
+        width:925px;
+        height: 540px;
+        margin: 0% 0% 0% 0% ;
+        background-size: cover;       
+        padding: 0;
+        margin-top: -60px;
+        margin-right: -20px;
+        float: left;
+      } 
+      menu{
+          width:92%;
+          height: 400px;
+          float: right;
+          margin-left: 25px;
+          margin-right: 20px;
+          margin-top: 20px;
+          border-radius: 10px;
+          background: radial-gradient(transparent,transparent);
+          display: block;
+         
+      }
+      #img1, #img2,#img3,#img4,#img5{
+        display: none;
+    }
+    
+  
+      .checkbtn{
+         width: 11%;
+         margin-left: 740px;
+        font-size: 110px;
+        color: white;
+        float: right;
+        margin-top: -20px;
+        display: block;
+        cursor: pointer;
+        z-index: 3999;
+    
+    }
+    #check{
+        font-size: 30px;
+        color: aliceblue;
+        float: right;
+  
+    }
+    .logo{
+        display: none;
+    }
+  
+      .logo2 img{
+          margin-top: -220px;
+          display: block;
+          flex-direction: column;
+          align-items: unset;
+          text-align: center;
+          color: white;
+          float: left;
+          width: 290px;
+          margin-left: -110px;
+      }
+      #check:checked ~ #nav-list{
+          display: block;
+      }
+      .check{
+        display: block;
+      }
+  
+      nav, #nav-list{
+        flex-direction: column;
+        align-items: unset;
+      }
+      #nav-list{
+          text-align: center;
+          display: block;
+          z-index: 2000;
+          background-color: #333;
+          display: none;
+          border-radius: 0px 0px 0px 0px;
+          float:right;
+          width: 927px;
+          font-size: 30px;
+          margin-left: -57px;
+          margin-top: -228px;
+          
+      }
+      li{
+          margin: 28px;
+      }
+      li:hover{
+          transform: translate(0px);
+          transition: all (0px);
+      }
+      .logo:hover{
+        transform: translate(0px);
+        padding: 0px;
+        box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+  
+      }
+  
+      nav{
+          padding-top: 20px;
+  
+      }
+
+      .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+    }
+    footer{
+        width: 13.8%;
+        height: 70px;
+        background-color: #333;
+        float: left;
+        margin-top:-100px;
+        border-radius: 0px 0px 0px 0px;
+        display: none;
+        
+    }
+    footer img{
+      width: 100%;
+      height: 170px;
+      border-radius: 0px 40px 0px 0px;
+      text-align: center;
+      margin-top: -40px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    main{
+        width: 865px;
+        height: 1350px;
+        margin: 4% ;
+        margin-left: 30px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 865px;
+        display: block;
+        margin-top: 550px;
+        float: left;
+        margin-left:  0px;
+        height: 700px;
+        background-color: rgb(108, 147, 199);
+
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+    .legend{
+       width: 911px;
+     }
+    #rf h3{
+        width: 100%;
+        margin-top: 0px;
+        display: none;
+    }
+  
+    #site{
+        margin-left: 220px;
+    }
+  
+    #f{
+      transform: translateX(50px);
+  
+     }
+     #rf img{
+         width: 600px;
+         height: 300px;
+         transform: translateX(-150px);
+     }
+     #rf h3{
+         display: none;
+     }
+  #i{
+     transform: translateX(50px);
+  
+  }
+  #tw{
+     transform: translateX(50px);
+  
+  }
+
+
+  /* parte de api */
+
+  .partida0{
+    background-color: black;
+}
+.partida1{
+    background-color: brown;
+}
+.partida2{
+    background-color: black;
+}
+.partida3{
+    background-color: brown;
+}
+.partida4{
+    background-color: black;
+    margin-top: 20px;
+}
+.partida5{
+    background-color: brown;
+}
+.partida6{
+    background-color: black;
+}
+.partida7{
+    background-color: brown;
+}
+.partida8{
+    background-color: black;
+}
+.partida9{
+    background-color: brown;
+}
+
+.caixa{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.time{
+    margin-top: -40px;
+    margin-left: 50px;
+    float: left;
+}
+
+.ponto{
+    margin-top: -40px;
+    margin-left: 310px;
+    float: left;
+}
+.vitoria{
+    margin-top: -40px;
+    margin-left: 360px;
+    float: left;
+}
+.empate{
+    margin-top: -40px;
+    margin-left: 420px;
+    float: left;
+}
+.derrota{
+    margin-top: -40px;
+    margin-left: 480px;
+    float: left;
+}
+.golpro{
+    margin-top: -40px;
+    margin-left: 525px;
+    float: left;
+}
+.golcontra{
+    margin-top: -40px;
+    margin-left: 590px;
+    float: left;
+}
+
+.saldo{
+    margin-top: -40px;
+    margin-left: 650px;
+    float: left;
+}
+.jogo{
+    margin-top: -40px;
+    margin-left: 720px;
+    float: left;
+}
+.aproveitamento{
+    margin-top: -40px;
+    margin-left: 770px;
+    float: left;
+}
+}
+
+@media screen and (max-width:1023px) and (min-width:769px) {
+    
+    section{
+        width:1023px;
+        height: 540px;
+        margin: 0% 0% 0% 0% ;
+        background-size: cover;       
+        padding: 0;
+        margin-top: -60px;
+        margin-right: -20px;
+        float: left;
+      } 
+      menu{
+          width:92%;
+          height: 400px;
+          float: right;
+          margin-left: 25px;
+          margin-right: 20px;
+          margin-top: 20px;
+          border-radius: 10px;
+          background: radial-gradient(transparent,transparent);
+          display: block;
+         
+      }
+      #img1, #img2,#img3,#img4,#img5{
+        display: none;
+    }
+    
+  
+      .checkbtn{
+         width: 11%;
+         margin-left: 800px;
+        font-size: 110px;
+        color: white;
+        float: right;
+        margin-top: -20px;
+        display: block;
+        cursor: pointer;
+        z-index: 3999;
+    
+    }
+    #check{
+        font-size: 30px;
+        color: aliceblue;
+        float: right;
+  
+    }
+    .logo{
+        display: none;
+    }
+  
+      .logo2 img{
+          margin-top: -220px;
+          display: block;
+          flex-direction: column;
+          align-items: unset;
+          text-align: center;
+          color: white;
+          float: left;
+          width: 290px;
+          margin-left: -110px;
+      }
+      #check:checked ~ #nav-list{
+          display: block;
+      }
+      .check{
+        display: block;
+      }
+  
+      nav, #nav-list{
+        flex-direction: column;
+        align-items: unset;
+      }
+      #nav-list{
+          text-align: center;
+          display: block;
+          z-index: 2000;
+          background-color: #333;
+          display: none;
+          border-radius: 0px 0px 0px 0px;
+          float:right;
+          width: 1023px;
+          font-size: 30px;
+          margin-left: -65px;
+          margin-top: -228px;
+          
+      }
+      li{
+          margin: 28px;
+      }
+      li:hover{
+          transform: translate(0px);
+          transition: all (0px);
+      }
+      .logo:hover{
+        transform: translate(0px);
+        padding: 0px;
+        box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+  
+      }
+  
+      nav{
+          padding-top: 20px;
+  
+      }
+
+      .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+    }
+    footer{
+        width: 13.8%;
+        height: 70px;
+        background-color: #333;
+        float: left;
+        margin-top:-100px;
+        border-radius: 0px 0px 0px 0px;
+        display: none;
+        
+    }
+    footer img{
+      width: 100%;
+      height: 170px;
+      border-radius: 0px 40px 0px 0px;
+      text-align: center;
+      margin-top: -40px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    main{
+        width: 865px;
+        height: 1350px;
+        margin: 4% ;
+        margin-left: 80px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 865px;
+        display: block;
+        margin-top: 550px;
+        float: left;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+    .legend{
+        width: 1023px;
+    }
+    #rf h3{
+        width: 100%;
+        margin-top: 0px;
+        display: none;
+    }
+  
+    #site{
+        margin-left: 220px;
+    }
+  
+    #f{
+      transform: translateX(100px);
+  
+     }
+     #rf img{
+         width: 600px;
+         height: 300px;
+         transform: translateX(-150px);
+     }
+     #rf h3{
+         display: none;
+     }
+  #i{
+     transform: translateX(100px);
+  
+  }
+  #tw{
+     transform: translateX(100px);
+  
+  }
+
+
+  /* parte de api */
+
+  .partida0{
+    background-color: black;
+}
+.partida1{
+    background-color: brown;
+}
+.partida2{
+    background-color: black;
+}
+.partida3{
+    background-color: brown;
+}
+.partida4{
+    background-color: black;
+    margin-top: 20px;
+}
+.partida5{
+    background-color: brown;
+}
+.partida6{
+    background-color: black;
+}
+.partida7{
+    background-color: brown;
+}
+.partida8{
+    background-color: black;
+}
+.partida9{
+    background-color: brown;
+}
+
+.caixa{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.time{
+    margin-top: -40px;
+    margin-left: 50px;
+    float: left;
+}
+
+.ponto{
+    margin-top: -40px;
+    margin-left: 310px;
+    float: left;
+}
+.vitoria{
+    margin-top: -40px;
+    margin-left: 360px;
+    float: left;
+}
+.empate{
+    margin-top: -40px;
+    margin-left: 420px;
+    float: left;
+}
+.derrota{
+    margin-top: -40px;
+    margin-left: 480px;
+    float: left;
+}
+.golpro{
+    margin-top: -40px;
+    margin-left: 525px;
+    float: left;
+}
+.golcontra{
+    margin-top: -40px;
+    margin-left: 590px;
+    float: left;
+}
+
+.saldo{
+    margin-top: -40px;
+    margin-left: 650px;
+    float: left;
+}
+.jogo{
+    margin-top: -40px;
+    margin-left: 720px;
+    float: left;
+}
+.aproveitamento{
+    margin-top: -40px;
+    margin-left: 770px;
+    float: left;
+}
+    
+}
+
+@media screen and (min-width:1024px)  and (min-height:766px) and (min-height:800px) {
+
+    #nav-list{
+        margin-top: -10px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) and (min-height:766px) and (min-height:900px) {
+
+    #nav-list{
+        margin-top: -20px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) and (min-height:901px) and (min-height:1000px) {
+
+    #nav-list{
+        margin-top: -30px;
+    }
+    
+}
+
+
+@media screen and (min-width:1024px) and (min-height:1001px) and (min-height:1140px) {
+
+    #nav-list{
+        margin-top: -40px;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1270px) and (min-width:1024px) {
+
+    main{
+        width: 930px;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 170px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 930px;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+    section{
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 30px 5px rgb(179, 177, 177);
+        width: 1270px;
+        height: 600px;
+    }
+
+    .legend{
+        width: 1270px;
+        margin-left: 0px;
+        background-color: black;
+      }
+      #f{
+        transform: translateX(20px);
+        display: none;
+   
+       }
+       #rf img{
+           width: 300px;
+           height: 300px;
+           transform: translateX(70px);
+       }
+       #rf h3{
+           display: none;
+       }
+   #i{
+       transform: translateX(30px);
+       display: none;
+   
+   }
+   #tw{
+       transform: translateX(40px);
+       display: none;
+   
+   }
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1271px) {
+    
+    main{
+        width: 75%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 160px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 75%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+    section{
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 0px 30px 5px rgb(179, 177, 177);
+        height: 700px;
+    }
+
+    #f{
+        transform: translateX(20px);
+        display: none;
+   
+       }
+       #rf img{
+           width: 300px;
+           height: 300px;
+           transform: translateX(70px);
+       }
+       #rf h3{
+           display: none;
+       }
+   #i{
+       transform: translateX(30px);
+       display: none;
+   
+   }
+   #tw{
+       transform: translateX(40px);
+       display: none;
+   
+   }
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1290px) {
+
+
+    main{
+        width: 72%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 180px;
+        align-items: center;
+        background-color: #333;
+
+    }
+    
+
+    .modal{
+        width: 72%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1300px) {
+
+
+    main{
+        width: 72%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 190px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 72%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1310px) {
+
+
+    main{
+        width: 71%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 200px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 71%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+@media screen and (max-width:1499px) and (min-width:1320px) {
+
+
+    main{
+        width: 70%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 210px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 70%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1330px) {
+
+
+    main{
+        width: 69%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 220px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 69%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1340px) {
+
+
+    main{
+        width: 68%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 210px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 68%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1350px) {
+
+
+    main{
+        width: 68%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 220px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 68%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+@media screen and (max-width:1499px) and (min-width:1360px) {
+
+
+    main{
+        width: 68%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 230px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 68%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1370px) {
+
+
+    main{
+        width: 67%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 240px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 67%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1380px) {
+
+
+    main{
+        width: 66%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 250px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 66%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1390px) {
+
+
+    main{
+        width: 66%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 250px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 66%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+@media screen and (max-width:1499px) and (min-width:1400px) {
+
+
+    main{
+        width: 66%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 240px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 66%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1410px) {
+
+
+    main{
+        width: 66%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 240px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 66%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:1499px) and (min-width:1420px) {
+
+
+    main{
+        width: 65%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 240px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 65%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+@media screen and (max-width:1499px) and (min-width:1430px) {
+
+
+    main{
+        width: 65%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 250px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 65%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1440px) {
+
+
+    main{
+        width: 65%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 250px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 65%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1450px) {
+
+
+    main{
+        width: 63%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 270px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 63%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1460px) {
+
+
+    main{
+        width: 63%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 270px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 63%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1470px) {
+
+
+    main{
+        width: 62%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 270px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 62%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+@media screen and (max-width:1499px) and (min-width:1480px) {
+
+
+    main{
+        width: 62%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 270px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 62%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1499px) and (min-width:1490px) {
+
+
+    main{
+        width: 62%;
+        height: 870px;
+        margin: 4% ;
+        margin-left: 270px;
+        align-items: center;
+        background-color: #333;
+    }
+    
+
+    .modal{
+        width: 62%;
+        display: block;
+        margin-top: 50px;
+        float: left;
+        align-items: center;
+        margin-left:  0px;
+        height: 700px;
+        background-color: #6c93c7;
+        box-shadow: 2px 9px 9px black;
+
+    }
+
+
+}
+
+@media screen and (max-width:1920px) and (min-width:1500px) {
+    
+
+    
+        main{
+            width: 62%;
+            height: 900px;
+            margin: 4% ;
+            margin-left: 280px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 62%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+        section{
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0px 0px 30px 5px rgb(179, 177, 177);
+            height: 890px;
+        }
+    
+        #f{
+            transform: translateX(20px);
+            display: none;
+       
+           }
+           #rf img{
+               width: 300px;
+               height: 300px;
+               transform: translateX(70px);
+           }
+           #rf h3{
+               display: none;
+           }
+       #i{
+           transform: translateX(30px);
+           display: none;
+       
+       }
+       #tw{
+           transform: translateX(40px);
+           display: none;
+       
+       }
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1510px) {
+
+
+        main{
+            width: 62%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 280px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 62%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1520px) {
+    
+    
+        main{
+            width: 62%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 290px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 62%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1530px) {
+    
+    
+        main{
+            width: 60%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 300px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 60%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1540px) {
+    
+    
+        main{
+            width: 59%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 310px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 59%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1550px) {
+    
+    
+        main{
+            width: 59%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 320px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 59%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1560px) {
+    
+    
+        main{
+            width: 59%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 330px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 59%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1570px) {
+    
+    
+        main{
+            width: 59%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 330px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 59%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1580px) {
+    
+    
+        main{
+            width: 59%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 330px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 59%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1590px) {
+    
+    
+        main{
+            width: 57%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 340px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 57%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1600px) {
+    
+    
+        main{
+            width: 57%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 350px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 57%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1610px) {
+    
+    
+        main{
+            width: 57%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 350px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 57%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1620px) {
+    
+    
+        main{
+            width: 56%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 370px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 56%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1630px) {
+    
+    
+        main{
+            width: 56%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 380px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 56%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    
+    
+    @media screen and (max-width:1920px) and (min-width:1640px) {
+    
+    
+        main{
+            width: 56%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 380px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 56%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1650px) {
+    
+    
+        main{
+            width: 56%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 380px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 56%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1660px) {
+    
+    
+        main{
+            width: 56%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 390px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 56%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1670px) {
+    
+    
+        main{
+            width: 56%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 390px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 56%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1680px) {
+    
+    
+        main{
+            width: 55%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 390px;
+            align-items: center;
+        }
+        
+    
+        .modal{
+            width: 55%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1690px) {
+    
+    
+        main{
+            width: 55%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 400px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 55%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1700px) {
+    
+    
+        main{
+            width: 55%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 400px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 55%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1710px) {
+    
+    
+        main{
+            width: 55%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 400px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 55%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1720px) {
+
+
+        main{
+            width: 54%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 410px;
+            align-items: center;
+            background-color: #333;
+    
+        }
+        
+    
+        .modal{
+            width: 54%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1730px) {
+    
+    
+        main{
+            width:54%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 410px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 54%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1740px) {
+    
+    
+        main{
+            width: 53%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 410px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 53%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1750px) {
+    
+    
+        main{
+            width: 53%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 410px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 53%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1760px) {
+    
+    
+        main{
+            width: 53%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 410px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 53%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1770px) {
+    
+    
+        main{
+            width: 53%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 410px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 53%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1780px) {
+    
+    
+        main{
+            width: 52%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 430px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 52%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1790px) {
+    
+    
+        main{
+            width: 52%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 430px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 52%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1800px) {
+    
+    
+        main{
+            width: 52%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 440px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 52%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1810px) {
+    
+    
+        main{
+            width: 50%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 50%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1820px) {
+    
+    
+        main{
+            width: 50%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 50%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1830px) {
+    
+    
+        main{
+            width: 50%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 50%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1840px) {
+    
+    
+        main{
+            width: 50%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 50%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    
+    
+    @media screen and (max-width:1920px) and (min-width:1850px) {
+    
+    
+        main{
+            width: 50%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 50%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1860px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1870px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1880px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 450px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1890px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 470px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1900px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 470px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    @media screen and (max-width:1920px) and (min-width:1910px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 470px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width:1920px) and (min-width:1920px) {
+    
+    
+        main{
+            width: 49%;
+            height: 870px;
+            margin: 4% ;
+            margin-left: 470px;
+            align-items: center;
+            background-color: #333;
+        }
+        
+    
+        .modal{
+            width: 49%;
+            display: block;
+            margin-top: 50px;
+            float: left;
+            align-items: center;
+            margin-left:  0px;
+            height: 700px;
+            background-color: #6c93c7;
+            box-shadow: 2px 9px 9px black;
+    
+        }
+    
+    
+    }
+    
+
+    
+    
+     
+     
+     
+     
+     
+   
+    
+
+     
+     
+    
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
